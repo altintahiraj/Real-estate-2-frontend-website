@@ -467,6 +467,7 @@ body {
   background: rgba(0, 0, 0, 0.1);
   outline: none;
   -webkit-appearance: none;
+  appearance: none;
   margin-top: 0.5rem;
 }
 
