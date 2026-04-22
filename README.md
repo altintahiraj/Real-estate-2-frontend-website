@@ -1,16 +1,50 @@
-# React + Vite
+# Real-estate-2 Frontend Website
+About the project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a real estate frontend project that I built using React and React Bootstrap. The idea behind it was to create a simple and clean interface where users can browse through property listings and view details for each property.
 
-Currently, two official plugins are available:
+# The focus of the project is on layout, responsiveness, and component structure, simulating a basic real-world real estate website.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built with
+React
+React Bootstrap
+JavaScript (ES6+)
+HTML
+CSS
+Project structure
 
-## React Compiler
+In this project, I organized the code in a simple and practical way. I used a components folder for reusable UI parts, a pages folder for different views like home and property details, and an assets folder for images and static files. The main files handle routing and app configuration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Getting started
 
-## Expanding the ESLint configuration
+To run the project locally:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository
+git clone <repository-url>
+Go inside the project folder
+cd Real-estate-2-frontend-website
+Install dependencies
+npm install
+Start the development server
+npm run dev
+
+# The project will run on:
+
+http://localhost:5173
+Features
+Display of property listings
+Property details page
+Responsive design for different screen sizes
+Navigation between pages
+Simple search functionality
+Clean UI using React Bootstrap
+What I learned
+
+While building this project, I practiced working with React components, routing, and layout design. I also improved my understanding of how to structure a frontend project in a clean and scalable way.
+
+# Possible improvements
+Connect to a backend API for real data
+Add user login and authentication
+Improve filtering and search system
+Add favorites or saved properties feature
+Enhance UI with more advanced styling
